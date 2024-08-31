@@ -50,6 +50,22 @@ RSpec.configure do |config|
 
   # Helper methods de Módulos
   config.include Helper
+
+  # config.before(:suite) do
+  #   puts ">>>>>>>>>>>>> ANTES de TODA a suíte de testes"
+  # end
+
+  # config.after(:suite) do
+  #   puts ">>>>>>>>>>>>> DEPOIS de TODA a suíte de testes"
+  # end
+
+  # config.before(:context) do
+  #   puts ">>>>>>>>>>>>> ANTES de TODOS os testes"
+  # end
+
+  # config.after(:context) do
+  #   puts ">>>>>>>>>>>>> DEPOIS de TODOS os testes"
+  # end
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
