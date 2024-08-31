@@ -1,6 +1,6 @@
 require 'calculator'
 
-describe Calculator do
+RSpec.describe Calculator do
 
   # Subject explicito
   # subject(:calc) { described_class.new() }
