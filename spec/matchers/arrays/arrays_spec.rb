@@ -15,7 +15,7 @@ describe Array.new([1,2,3]), 'Matcher de Arrays', type: 'collection' do
   end
 
   # não precisa estar na ordem
-  it '#contain_exactly' do
+  it '#contain_exactly', :slow do
     expect(subject).to contain_exactly(2, 1, 3)
   end
 end
